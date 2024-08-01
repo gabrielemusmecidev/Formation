@@ -1,0 +1,1 @@
+console.log("First tests with Javascript!")
