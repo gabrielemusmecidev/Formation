@@ -1,0 +1,26 @@
+A boolean type can assume either one of true or false value
+
+    let bool=true
+    let bool=false
+    let bool=4>3 //true
+    let bool=4<3 //false
+
+When encountered in a boolean contex vales can be Truthy or Falsy
+    Truthy:
+        -Numbers, positive or negative, except 0
+        -Strings, except an empy string
+        -The boolean true
+    
+    Falsy:
+        -0
+        -0n
+        -null
+        -undefined
+        -NaN
+        -The boolean false
+        -empty strings, '',"",``
+
+
+
+
+
