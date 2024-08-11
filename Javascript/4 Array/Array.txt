@@ -1,0 +1,62 @@
+There are many methods to create an array in Javascript
+It's very common to declare an array using const instead of let, so that the name of the variable
+is not used again
+
+    const array = Array()
+    //or let array = Array()
+    console.log(array)
+
+    const array=[]
+    //This is the most recommended way to create an empty list
+
+To create an array with values, an array can contain different data types 
+    const array=[0,1,2,3,4,55,69,87]
+    const fruits=["banana","pineapple","cucumber","watermelon"]
+    const tierlist=[1,"banana",2,"cucumber",3,"pineapple"]
+
+Arrays can be displayed using console.log(array)
+
+Elements in arrays can be accessed using indexes
+
+Once created an array can be modified
+    const nums=[1,2,3,4,5]
+    nums[0] = 21
+    nums[2] = 7
+
+There are many methods to manipulate an array, here are some of the most important ad used
+    -Array(lenght), used to create empty arrays of given lenght
+    -fill(), used to fill the array with static values
+        const array = Array(4).fill("X") //[X,X,X,X]
+    -concat(), concatenate two arrays
+        const array = Array(4).fill("X")
+        const array2= Array(4).fill("Y")
+        const array3=array.concat(array2) //["X","X","X","X","Y","Y","Y","Y"]
+    -lenght(), obtain the lenght of the given array
+        const array=[1,2,3,4]
+        lenght=array.lenght //4
+    -indexOf(), check if an item exists in the array, returns the index of the element or -1 if not found
+        const song=["apple","bottom","jeans"]
+        let index = song.indexOf("bottom") //1
+        let index2 = song.indexOf("fur") //-1
+    -lastIndexOf(), check the last position of the given element, return index or -1 if not found
+        const disney=["mickey","donald","minnie","Ashmantgwander the destroyer od worlds","donald","mickey"]
+        let index= disney.lastIndexOf("donald") //4
+        let index= disney.lastIndexOf("mouse") //-1
+    -includes(), check if an item exists in the array, returns true or false
+        const array=[1,3,9,11]
+        console.log(array.includes(3)) //true
+        console.log(array.includes(12)) //false
+    -Array.isArray(), check if the data type is an array
+        const bestNumbers=[0,1,2,3,4]
+        console.log(Array.isArray(bestNumbers)) //true
+        let a=15
+        console.log(Array.isArray(a)) //false
+    -toString(), convert the array to a string
+        const bingo=[10,19,21,33]
+        console.log(bingo) //[10,19,21,33]
+        console.log(bingo.toString()) //10,19,21,33
+    -join(), used to join the elements of the array, the argument passed will be joined in the array
+    and returns a string. If nothing is provided by defaults joins with a comma
+        const array=["Obama","Trump","Hilary"]
+        console.log(array.join("-")) //Obama-Trump-Hilary
+    
