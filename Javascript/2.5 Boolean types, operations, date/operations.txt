@@ -53,4 +53,13 @@ Values can be comparated using comparator operators
     console.log(NaN===NaN) //false
     console.log(typeof NaN) //number
 
-    
+The alert() method is used to display an alert box with a specified message and an ok button
+    alert(Hi!)
+The prompt() method dispays a prompt box with an input to take values that can be stored in a variable
+    prompt("required text", "optional text")
+    let number = prompt("Insert a number", "Here")
+    console.log(number)
+The confirm() method dispalys a dialog box with a specified message, along with an OK and Cancel button
+Clicking the OK button yields true value, Cancel yields false value
+    const agree= confirm("Are you sure about that? ")
+    console.log(agree) //result will be true or false based on the choice 

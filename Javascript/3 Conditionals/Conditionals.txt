@@ -1,0 +1,55 @@
+Conditional statements are used for make decisions based on different conditions
+By default in statements in Javascript are executed from top to bottom
+If the processing logic require so the sequential flow of execution can be altered in two ways
+    -Conditional execution: A block of one or more statements will be executed is a certain condition
+    is true
+    -Repetitive execution: A block or one or more statements will be repetitively executed
+    as long as a certain condition is true
+
+To implement a candition one of this ways can be used
+    -if
+    -if else
+    -if else if else
+    -switch
+    -ternary operators
+
+if
+    if (condition) {
+        //code that will be executed if the condition is true
+    }
+
+if else
+    if (condition){
+        //code that will be executed if the condition is true
+    } else {
+        //code that will be executed if the condition is false
+    }
+
+if else if else
+    if (condition){
+        //code that will be executed if the condition is true
+    } else if (condition) {
+        //code that will be executed if the second condition is true
+    }
+
+switch
+    switch(caseValue){
+        case 1:
+            //code
+            break
+        case 2:
+            //code
+            break
+        default:
+            //code
+            break
+    }
+
+ternary operators
+    let isRainingMen = true
+    isRainingMen
+        ? console.log("Halleluja")
+        : console.log("No, there are not raining men")
+
+
+

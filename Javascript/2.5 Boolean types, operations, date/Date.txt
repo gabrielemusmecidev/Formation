@@ -1,0 +1,18 @@
+The time in Javascript is created using Javascript Date Object, the object created provides 
+many methods to work with with date and time. This are the methods provided
+    -getFullYear(), gets the year as a four digits number (yyyy)
+    -getMonth(), get the month as a number (0-11)
+    -getDate(), get the day as a number (1-31)
+    -getHours(), get the hour (0-23)
+    -getMinutes, get the minute (0-59)
+    -getSeconds(), get the second (0-59)
+    -getMilliseconds(), get the millisecond (0-999)
+    -getTime(), get the time (milliseconds since 1/1/1970)
+    -getDay(), get the weekday as a number (0-6)
+
+After the object is created it provides informations about time
+    const now = new Date()
+    console.log(now) //Sun Aug 11 2024 11:25:59 GMT+0200 (Central European Summer Time)
+From here any of the below methods can be used to extract the needed value
+
+
